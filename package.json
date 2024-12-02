@@ -15,7 +15,7 @@
     "watch:build": "tsc --project tsconfig.test.json --watch --preserveWatchOutput",
     "watch:test": "vitest --coverage --clearScreen=false"
   },
-  "description": "IIFE as a function.",
+  "description": "Define a type for a value.",
   "license": "MIT",
   "author": "Chabib N. R. <cnr@tenex.engineering> (https://tenex.engineering)",
   "homepage": "https://github.com/tenex-engineering/define-x/blob/master/README.md",
