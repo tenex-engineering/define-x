@@ -67,13 +67,15 @@ jobs:
         with:
           node-version-file: .node-version
 
-      - uses: actions/cache/restore@v4
+      - name: Restore node_modules from cache
+        uses: actions/cache/restore@v4
         with:
           fail-on-cache-miss: true
           path: node_modules/
           key: ${{ runner.os }}-node-${{ github.sha }}
 
-      - uses: actions/cache/restore@v4
+      - name: Restore build from cache
+        uses: actions/cache/restore@v4
         with:
           fail-on-cache-miss: true
           path: dist/
