@@ -1,6 +1,6 @@
 {
   "name": "@txe/define-x",
-  "version": "0.3.0",
+  "version": "1.3.0",
   "scripts": {
     "ci": "npm run build && npm run test && npm run lint && npm run check-exports && npm run check-format && npm run check-spelling",
     "dev": "concurrently --names=\"tsc,test\" --prefix-colors=\"cyan,green\" \"npm run watch:build\" \"npm run watch:test\"",
